@@ -1,0 +1,308 @@
+#
+#Executables and generated files
+#
+*.exe
+
+#Install
+bin/
+
+#
+# Cmake build system
+#
+CMakeCache.txt
+CMakeFiles
+build
+
+#
+#VTR Flow/Tasks
+#
+vtr_flow/tasks/**/run[0-9]*
+vtr_flow/tasks/**/run_latest
+vtr_flow/tasks/**/latest
+vtr_flow/tasks/**/qor_geomean.txt
+vtr_flow/tasks/**/task_summary/
+quick_test/*
+temp/
+
+#
+# Titan benchmarks
+#
+#   We ignore the Titan netlists because of thier large size, and the
+#   Titan architectures since they need to be kept in sync with the
+#   netlists.
+#
+titan_release*.tar.gz
+vtr_flow/arch/titan/*.xml
+vtr_flow/benchmarks/titan_blif/other_benchmarks
+vtr_flow/benchmarks/titan_blif/titan23
+vtr_flow/benchmarks/titan_blif/titan_new
+
+
+#
+# NoC MLP benchmarks
+#
+#   We ignore blif and vqm files because of thier large size.
+#   We also ignore symbolic links to traffic flow and blif files.
+#
+vtr_flow/benchmarks/noc/Large_Designs/MLP/**/*.vqm
+vtr_flow/benchmarks/noc/Large_Designs/MLP/**/*.blif
+vtr_flow/benchmarks/noc/Large_Designs/MLP/blif_files/*
+vtr_flow/benchmarks/noc/Large_Designs/MLP/traffic_flow_files/*
+MLP_Benchmark_Netlist_Files_blif.tar.gz
+MLP_Benchmark_Netlist_Files_vqm_blif.tar.gz
+
+#
+# ISPD benchmarks
+#
+#   We ignore the ISPD netlists because of thier large size.
+#
+ispd_benchmarks_vtr*.tar.gz
+vtr_flow/benchmarks/ispd_blif/*.blif
+
+#
+# SymbiFlow benchmarks
+#
+#   We ignore the SymbiFlow netlists and architectures because of thier large size.
+#
+*symbiflow*.tar.xz
+vtr_flow/arch/symbiflow/*.bin
+vtr_flow/arch/symbiflow/*.xml
+vtr_flow/benchmarks/symbiflow/*.eblif
+vtr_flow/benchmarks/symbiflow/sdc/*.sdc
+
+#
+# Cloud9 Directory
+#
+.c9/
+.buildconfig
+
+#
+# Log Files
+#
+*.log
+*.log.sh
+vgcore*
+
+#
+# VPR Result files
+#
+*.net
+*.place
+*.route
+*.out
+*.bin
+
+#
+# FASM result files
+#
+*.fasm
+
+#
+#Odin test outputs
+#
+odin_ii/log
+odin_ii/regression_test/run[0-9]*
+odin_ii/temp/*
+odin_ii/usefull_tools/**/run[0-9]*
+odin_ii/usefull_tools/**/track_completed
+#
+#C/C++
+#
+*.d
+*.o
+*.a
+
+#
+#Python
+#
+*.pyc
+/.venv
+
+#
+#Vim
+#
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+#
+# LibreOffice
+#
+\.~lock*\#
+
+#
+#Ctags
+#
+.tags*
+tags
+
+#
+# VS Code
+#
+.vscode
+.history
+.cache
+#eclipse project
+.project
+
+#
+# CLION
+#
+.idea
+cmake-build-debug
+cmake-build-release
+/.metadata/
+
+#
+# Clangd
+#
+compile_commands.json
+
+# Build directories
+build/
+build_*/
+cmake-build-*/
+.build/
+
+# Compiled Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Test results
+*.log
+*.out
+*.err
+test_*.txt
+timing.txt
+place.txt
+route.txt
+pack.txt
+
+# VTR output files
+*.net
+*.place
+*.route
+*.timing
+*.blif
+*.xml.echo
+*.rpt
+*.fasm
+
+# Logs and temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.vcxproj*
+*.sln
+*.suo
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Documentation build
+docs/_build/
+docs/build/
+*.html
+*.pdf
+
+# Package managers
+node_modules/
+npm-debug.log*
+
+# Coverage reports
+*.gcov
+*.gcda
+*.gcno
+coverage/
+*.lcov
+
+# Profiling
+gmon.out
+*.prof
+*.gprof
+
+# Valgrind
+*.memcheck
+vgcore.*
+
+# Regression test outputs
+regression_test_*
+qor_results/
+benchmark_results/
+
+# Interposer-specific outputs
+interposer_*.log
+interposer_analysis/
+cut_analysis/
+wire_cut_reports/
+
+# User-specific files
+config.local
+user_config.txt
+my_*.xml
+test_arch/
+scratch/
