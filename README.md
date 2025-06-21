@@ -115,15 +115,6 @@ libs/librrgraph/src/base/
 └── check_rr_graph.cpp             # Validation updates
 ```
 
-## Research Applications
-
-This tool has been used for research in:
-
-- **Multi-die FPGA architectures**: Evaluating the trade-offs between die size and interposer overhead
-- **3D FPGA design**: Modeling vertical connections through interposer layers
-- **Chiplet-based systems**: Analyzing heterogeneous multi-die configurations
-- **Advanced packaging**: Studying the impact of different interposer technologies
-
 ## Examples
 
 ### Basic Interposer Experiment
