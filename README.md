@@ -187,20 +187,6 @@ cmake -DVTR_ENABLE_INTERPOSER_SUPPORT=ON -DCMAKE_BUILD_TYPE=Debug ..
 make -j$(nproc)
 ```
 
-## Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@inproceedings{vtr_interposer_2024,
-  title={Interposer-Based FPGA Architecture Modeling in VTR},
-  author={Your Name},
-  booktitle={Proceedings of the International Conference on FPGA},
-  year={2024},
-  organization={ACM}
-}
-```
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
