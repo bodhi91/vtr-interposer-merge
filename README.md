@@ -225,8 +225,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 📖 [Documentation](docs/)
 - 🐛 [Issue Tracker](https://github.com/yourusername/vtr-interposer/issues)
 - 💬 [Discussions](https://github.com/yourusername/vtr-interposer/discussions)
-- 📧 Contact: your.email@university.edu
-
+- 📧 Contact: bopramanik@ucsd.edu
 ---
 
 **Keywords**: FPGA, Interposer, Multi-die, CAD Tools, VTR, Architecture Modeling, Silicon Interposer, Chiplet
